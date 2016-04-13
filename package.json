@@ -1,7 +1,7 @@
 {
   "name": "fullpage-boilerplate",
   "version": "0.0.0",
-  "description": "An full-page scrolling website boilerplate built using fullPage.js",
+  "description": "A full-page scrolling website boilerplate built using fullPage.js and Velocity.js.",
   "author": "Chris Pan",
   "devDependencies": {
     "browser-sync": "^2.12.1",
@@ -27,6 +27,7 @@
     "font-awesome": "^4.5.0",
     "fullpage.js": "^2.7.9",
     "jquery": "^2.2.3",
-    "normalize.css": "^4.1.1"
+    "normalize.css": "^4.1.1",
+    "velocity-animate": "^1.2.3"
   }
 }
