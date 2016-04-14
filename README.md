@@ -4,6 +4,8 @@ A full-page scrolling website boilerplate built using fullPage.js and Velocity.j
 
 It comes with useful gulp tasks that automatically compile sass, bundle javascript modules, reload browsers and so on.
 
+![Screenshot](https://raw.githubusercontent.com/panteng/fullpage-boilerplate/master/screenshot.jpg)
+
 ## Getting Started
 
 1. Install dependencies:
