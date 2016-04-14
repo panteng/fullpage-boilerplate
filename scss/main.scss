@@ -1,8 +1,9 @@
 @charset "utf-8";
 
 // helpers
-@import "helpers/global-variable";
-@import "helpers/mixin";
+@import "helpers/global-variables";
+@import "helpers/mixins";
+@import "helpers/functions";
 
 // base
 @import "base/base";
