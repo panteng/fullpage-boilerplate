@@ -5,6 +5,7 @@ var fullpage = require('fullpage.js');
 
 $(document).ready(function () {
     $('#fullpage').fullpage({
-        menu: '#menu'
+        menu: '#menu',
+        paddingTop: 60
     });      
 });

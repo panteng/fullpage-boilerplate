@@ -11,7 +11,7 @@
     li {
         width: 10px;
         height: 10px;
-        background-color: red;
+        background-color: #fff;
         border-radius: 50%;
         margin-bottom: 30px;
         &:last-child {
@@ -19,7 +19,7 @@
         }
         &.active {
             background-color: transparent;
-            border: 2px solid yellow;
+            border: 2px solid #fff;
         }
         a {
             display: block;

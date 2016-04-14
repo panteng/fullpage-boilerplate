@@ -2730,6 +2730,10 @@ button, a {
   -webkit-tap-highlight-color: transparent;
 }
 
+.section .container {
+  height: 100%;
+}
+
 .menu {
   list-style-type: none;
   margin: 0;
@@ -2744,7 +2748,7 @@ button, a {
 .menu li {
   width: 10px;
   height: 10px;
-  background-color: red;
+  background-color: #fff;
   border-radius: 50%;
   margin-bottom: 30px;
 }
@@ -2755,7 +2759,7 @@ button, a {
 
 .menu li.active {
   background-color: transparent;
-  border: 2px solid yellow;
+  border: 2px solid #fff;
 }
 
 .menu li a {
@@ -2764,14 +2768,22 @@ button, a {
   height: 100%;
 }
 
+.header {
+  width: 100%;
+  height: 60px;
+  position: fixed;
+  background-color: #fff;
+  z-index: 1;
+}
+
 .section-1 {
-  background-color: blue;
+  background-color: #EA9292;
 }
 
 .section-2 {
-  background-color: green;
+  background-color: #5cc2f1;
 }
 
 .section-3 {
-  background-color: pink;
+  background-color: #565f77;
 }
