@@ -12,30 +12,32 @@
 
     <title>Fullpage-Boilerplate</title>
 
-    <link rel="shortcut icon" type="image/png" href="favicon.ico">
+    <link rel="shortcut icon" type="image/png" href="">
 
-    <!-- Don't delete these comments. They are needed for development workflow. -->
+    <!-- Don't delete these comments. They are needed for gulp tasks. -->
     <!-- inject:css -->
     <link rel="stylesheet" href="bundles/bundle.css">
     <!-- endinject -->
 </head>
 <body>
-<header class="header"></header>    
+<header class="header">
+    HEADER
+</header>    
     
 <main id="fullpage">
     <section class="section section-1" data-anchor="section-1">
         <div class="container">
-
+            <h2>Section 1</h2>
         </div>
     </section>
     <section class="section section-2" data-anchor="section-2">
         <div class="container">
-
+            <h2>Section 2</h2>
         </div>
     </section>
     <section class="section section-3" data-anchor="section-3">
         <div class="container">
-
+            <h2>Section 3</h2>
         </div>
     </section>
 </main>
@@ -46,7 +48,11 @@
     <li data-menuanchor="section-3"><a href="#section-3"></a></li>
 </ul>
 
-<!-- Don't delete these comments. They are needed for development workflow. -->
+<button class="btn-next" id="btn-next">
+    <i class="fa fa-angle-down"></i>
+</button>
+
+<!-- Don't delete these comments. They are needed for gulp tasks. -->
 <!-- inject:js -->
 <script src="bundles/bundle.js"></script>
 <!-- endinject -->

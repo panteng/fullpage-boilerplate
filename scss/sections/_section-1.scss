@@ -2,4 +2,13 @@
 
 .section-1 {
     background-color: #EA9292;
+    h2 {
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+        color: #fff;
+        font-size: 72px;
+    }
 }

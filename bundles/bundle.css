@@ -2718,6 +2718,10 @@ html.fp-enabled,
 .fp-auto-height .fp-tableCell{
     height: auto !important;
 }
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -2732,6 +2736,7 @@ button, a {
 
 .section .container {
   height: 100%;
+  position: relative;
 }
 
 .menu {
@@ -2768,11 +2773,31 @@ button, a {
   height: 100%;
 }
 
+.btn-next {
+  position: fixed;
+  left: 50%;
+  bottom: 30px;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  border: none;
+  background: none;
+  color: #fff;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.btn-next i {
+  font-size: 48px;
+}
+
 .header {
   width: 100%;
   height: 60px;
+  line-height: 60px;
+  padding: 0 20px;
   position: fixed;
-  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.9);
+  font-weight: bold;
   z-index: 1;
 }
 
@@ -2780,10 +2805,43 @@ button, a {
   background-color: #EA9292;
 }
 
+.section-1 h2 {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+          transform: translateX(-50%) translateY(-50%);
+  color: #fff;
+  font-size: 72px;
+}
+
 .section-2 {
   background-color: #5cc2f1;
 }
 
+.section-2 h2 {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+          transform: translateX(-50%) translateY(-50%);
+  color: #fff;
+  font-size: 72px;
+}
+
 .section-3 {
   background-color: #565f77;
+}
+
+.section-3 h2 {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+          transform: translateX(-50%) translateY(-50%);
+  color: #fff;
+  font-size: 72px;
 }
