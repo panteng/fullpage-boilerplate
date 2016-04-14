@@ -2,6 +2,8 @@
 
 A full-page scrolling website boilerplate built using fullPage.js and Velocity.js.
 
+It comes with useful gulp tasks that automatically compile sass, bundle javascript modules, reload browsers and so on.
+
 ## Getting Started
 
 1. Install dependencies:
@@ -11,7 +13,6 @@ A full-page scrolling website boilerplate built using fullPage.js and Velocity.j
 2. Start gulp task:
 
         gulp dev   
-    
        
         
 ## Get Ready For Production
