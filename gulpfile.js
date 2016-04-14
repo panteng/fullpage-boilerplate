@@ -3,12 +3,12 @@
 var autoprefixer = require('gulp-autoprefixer');
 var browserify = require('gulp-browserify');
 var browserSync = require('browser-sync').create();
+var cleanCSS = require('gulp-clean-css');
 var concat = require('gulp-concat');
 var del = require('del');
 var gulp = require('gulp');
 var imagemin = require('gulp-imagemin');
 var inject = require('gulp-inject');
-var minifycss = require('gulp-minify-css');
 var notify = require('gulp-notify');
 var rename = require('gulp-rename');
 var runSequence = require('run-sequence');
@@ -140,7 +140,9 @@ gulp.task('default', ['dev']);
 // minify bundle.css and save as bundle.min.css
 gulp.task('minify-css', function () {
     return gulp.src('bundles/bundle.css')
-        .pipe(minifycss())
+        .pipe(cleanCSS({
+            keepSpecialComments: 0
+        }))
         .pipe(rename({
             suffix: '.min'
         }))
