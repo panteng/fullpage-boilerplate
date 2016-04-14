@@ -1,6 +1,6 @@
 # Fullpage-Boilerplate
 
-A full-page scrolling website boilerplate built using fullPage.js and Velocity.js.
+A full-page scrolling website boilerplate built using [fullPage.js](http://alvarotrigo.com/fullPage/) and [Velocity.js](http://julian.com/research/velocity/).
 
 It comes with useful gulp tasks that automatically compile sass, bundle javascript modules, reload browsers and so on.
 

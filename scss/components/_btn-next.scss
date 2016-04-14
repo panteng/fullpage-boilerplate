@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+.btn-next {
+    position: fixed;
+    left: 50%;
+    bottom: 30px;
+    transform: translateX(-50%);
+    border: none;
+    background: none;
+    color: #fff;
+    cursor: pointer;
+    z-index: 1;
+    i {
+        font-size: 48px;
+    }
+}
