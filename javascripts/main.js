@@ -7,8 +7,6 @@ var executeAnimationOfSection1 = require('./animations/section-1');
 var executeAnimationOfSection2 = require('./animations/section-2');
 var executeAnimationOfSection3 = require('./animations/section-3');
 
-var hideHiddenItems = require('./controls/hide-hidden-items')
-
 $(document).ready(function () {  
     // disable velocity mobileHA because it overrides the transform values we defined in stylesheets.
     $.Velocity.defaults.mobileHA = false;
@@ -44,3 +42,9 @@ $(document).ready(function () {
         $.fn.fullpage.moveSectionDown();
     });
 });
+
+function hideHiddenItems() {
+    $('.hidden-item').css({
+        opacity: 0
+    });
+}
