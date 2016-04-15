@@ -2720,6 +2720,19 @@ html.fp-enabled,
 }
 html {
   font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+@media all and (min-width: 400px) {
+  html {
+    font-size: 22px;
+  }
+}
+
+@media all and (min-width: 600px) {
+  html {
+    font-size: 32px;
+  }
 }
 
 * {
@@ -2740,12 +2753,12 @@ button, a {
 }
 
 .menu {
-  list-style-type: none;
   margin: 0;
   padding: 0;
   position: fixed;
-  top: 50%;
+  top: calc((100% - 60px) / 2 + 60px);
   left: 20px;
+  list-style-type: none;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
 }
@@ -2813,7 +2826,8 @@ button, a {
   -webkit-transform: translateX(-50%) translateY(-50%);
           transform: translateX(-50%) translateY(-50%);
   color: #fff;
-  font-size: 72px;
+  font-size: 2.5rem;
+  white-space: nowrap;
 }
 
 .section-2 {
@@ -2828,7 +2842,8 @@ button, a {
   -webkit-transform: translateX(-50%) translateY(-50%);
           transform: translateX(-50%) translateY(-50%);
   color: #fff;
-  font-size: 72px;
+  font-size: 2.5rem;
+  white-space: nowrap;
 }
 
 .section-3 {
@@ -2843,5 +2858,6 @@ button, a {
   -webkit-transform: translateX(-50%) translateY(-50%);
           transform: translateX(-50%) translateY(-50%);
   color: #fff;
-  font-size: 72px;
+  font-size: 2.5rem;
+  white-space: nowrap;
 }

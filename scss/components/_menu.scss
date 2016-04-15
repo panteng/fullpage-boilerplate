@@ -1,12 +1,12 @@
 @charset "UTF-8";
 
 .menu {
-    list-style-type: none;
     margin: 0;
     padding: 0;
     position: fixed;
-    top: 50%;
+    top: calc((100% - 60px) / 2 + 60px);     // 60px is the height of the header.
     left: 20px;
+    list-style-type: none;
     transform: translateY(-50%);
     li {
         width: 10px;
