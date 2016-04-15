@@ -4,7 +4,8 @@ var velocity = require('velocity-animate');
 module.exports = function () {
     $('.section-2 .text')
         .velocity({
-            left: '40%'
+            left: '40%',
+            opacity: 0
         }, 0)
         .delay(100)
         .velocity({

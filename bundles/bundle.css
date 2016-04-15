@@ -2818,7 +2818,7 @@ button, a {
   background-color: #EA9292;
 }
 
-.section-1 h2 {
+.section-1 .text {
   margin: 0;
   position: absolute;
   top: 50%;
@@ -2834,7 +2834,7 @@ button, a {
   background-color: #5cc2f1;
 }
 
-.section-2 h2 {
+.section-2 .text {
   margin: 0;
   position: absolute;
   top: 50%;
@@ -2850,7 +2850,7 @@ button, a {
   background-color: #565f77;
 }
 
-.section-3 h2 {
+.section-3 .text {
   margin: 0;
   position: absolute;
   top: 50%;

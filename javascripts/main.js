@@ -1,6 +1,6 @@
 'use strict';
 
-var $ = require('jquery');
+var $ = window.jQuery = window.$ = require('jquery');
 var fullpage = require('fullpage.js');
 
 var executeAnimationOfSection1 = require('./animations/section-1');
@@ -13,38 +13,34 @@ $(document).ready(function () {
     
     $('#fullpage').fullpage({
         menu: '#menu',
-        paddingTop: 60, // this value should be the same as the header's height (60px).
-        afterLoad: function (anchorLink, index) {
-            
-            hideHiddenItems();
-            
+        paddingTop: $('.header').outerHeight(),     // paddingTop should be the same as the header's height.
+        afterLoad: function (anchorLink, index) { 
+            hideAnimatedItems();                   // reset all animated-items to their default styles.
             switch (index) {
                 case 1: 
                     $('#btn-next').show();
                     executeAnimationOfSection1();
                     break;
-                
                 case 2:
                     $('#btn-next').show();
                     executeAnimationOfSection2();
                     break;
-                    
                 case 3:
-                    $('#btn-next').hide();
+                    $('#btn-next').hide();          // hide btn-next when reaching the last section.
                     executeAnimationOfSection3();
                     break;
             }
-            
         }
     });
     
+    // move to next section when btn-next is clicked.
     $('#btn-next').on('click', function () {
         $.fn.fullpage.moveSectionDown();
     });
 });
 
-function hideHiddenItems() {
-    $('.hidden-item').css({
+function hideAnimatedItems() {
+    $('.animated-item').css({
         opacity: 0
     });
 }

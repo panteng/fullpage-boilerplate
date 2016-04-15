@@ -6,7 +6,8 @@ module.exports = function () {
         .velocity({
             translateX: '-50%',
             translateY: '-50%',
-            scale: 0.4
+            scale: 0.4,
+            opacity: 0
         }, 0)
         .delay(100)
         .velocity({
