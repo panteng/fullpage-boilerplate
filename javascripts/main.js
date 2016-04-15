@@ -9,8 +9,9 @@ var executeAnimationOfSection3 = require('./animations/section-3');
 
 var hideHiddenItems = require('./controls/hide-hidden-items')
 
-$(document).ready(function () {
-    var sectionsLength = $('.section').length;
+$(document).ready(function () {  
+    // disable velocity mobileHA because it overrides the transform values we defined in stylesheets.
+    $.Velocity.defaults.mobileHA = false;
     
     $('#fullpage').fullpage({
         menu: '#menu',
