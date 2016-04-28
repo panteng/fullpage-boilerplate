@@ -1,6 +1,6 @@
 'use strict';
 
-var $ = window.jQuery = window.$ = require('jquery');
+var $ = require('jquery');
 var fullpage = require('fullpage.js');
 
 var executeAnimationOfSection1 = require('./animations/section-1');
