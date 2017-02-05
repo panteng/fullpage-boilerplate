@@ -9,7 +9,7 @@ With the help of this boilerplate, you can build a wonderful full-screen scrolli
 
 ## Live Preview
 
-[Click Here](http://panteng.me/live-previews/fullpage-boilerplate)
+[Click Here](http://panteng.me/demos/fullpage-boilerplate)
 
 ## Dependencies
 
