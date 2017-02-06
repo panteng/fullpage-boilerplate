@@ -61,11 +61,8 @@ With the help of this boilerplate, you can build a wonderful full-screen scrolli
 
         npm install --production
         
-   Add `--` tag to only install dependencies that are needed for production environment.
+   Add `--production` tag to only install dependencies that are needed for production environment.
 
-## Development Guide
-
-Coming soon.
 
 ## License
 
