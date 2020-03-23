@@ -7,10 +7,6 @@ With the help of this boilerplate, you can build a wonderful full-screen scrolli
 
 ![Screenshot](https://raw.githubusercontent.com/panteng/fullpage-boilerplate/master/screenshot.jpg)
 
-## Live Preview
-
-[Click Here](http://panteng.me/demos/fullpage-boilerplate)
-
 ## Dependencies
 
 1. [Font Awesome](https://fortawesome.github.io/Font-Awesome/)     --> Icon font set.
@@ -66,4 +62,4 @@ With the help of this boilerplate, you can build a wonderful full-screen scrolli
 
 ## License
 
-MIT
+GPLv3
