@@ -6,7 +6,6 @@ var browserSync = require('browser-sync').create();
 var buffer = require('vinyl-buffer');
 var cleanCSS = require('gulp-clean-css');
 var del = require('del');
-var factor = require('factor-bundle');
 var gulp = require('gulp');
 var notify = require('gulp-notify');
 var rename = require('gulp-rename');
@@ -68,7 +67,7 @@ gulp.task('watch', function () {
 });
 
 // clean old files under bundles folder
-gulp.task('clean-bundles', function(cb) {
+gulp.task('clean-bundles', function (cb) {
     return del([
         'bundles/*'
     ], cb);
