@@ -1,32 +1,21 @@
 {
   "name": "fullpage-boilerplate",
-  "version": "0.2.0",
-  "description": "A full-page scrolling website boilerplate built using fullPage.js and Velocity.js.",
+  "version": "1.0.0",
+  "description": "A full page scrolling website boilerplate.",
   "author": "Chris Pan",
+  "private": true,
+  "scripts": {
+    "dev": "parcel ./src/index.html",
+    "prod": "parcel build ./src/index.html"
+  },
   "devDependencies": {
-    "browser-sync": "^2.12.3",
-    "browserify": "^13.0.0",
-    "browserify-shim": "^3.8.12",
-    "del": "^2.2.0",
-    "gulp": "^3.9.1",
-    "gulp-autoprefixer": "^3.1.0",
-    "gulp-browserify": "^0.5.1",
-    "gulp-clean-css": "^2.0.6",
-    "gulp-notify": "^2.2.0",
-    "gulp-plumber": "^1.1.0",
-    "gulp-rename": "^1.2.2",
-    "gulp-sass": "^2.3.1",
-    "gulp-sourcemaps": "^2.0.0-alpha",
-    "gulp-uglify": "^1.5.3",
-    "run-sequence": "^1.1.5",
-    "vinyl-buffer": "^1.0.0",
-    "vinyl-source-stream": "^1.1.0"
+    "eslint": "^6.8.0",
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.26.3"
   },
   "dependencies": {
-    "font-awesome": "^4.5.0",
-    "fullpage.js": "^2.7.9",
-    "jquery": "^2.2.3",
-    "normalize.css": "^4.1.1",
-    "velocity-animate": "^1.2.3"
+    "normalize.css": "^4.2.0",
+    "swiper": "^5.3.7",
+    "velocity-animate": "^2.0.6"
   }
 }

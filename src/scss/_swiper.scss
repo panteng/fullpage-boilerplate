@@ -1,0 +1,15 @@
+.swiper-container {
+  height: 100%;
+}
+
+.swiper-pagination-bullets {
+  left: 24px;
+  right: unset !important;
+}
+
+.swiper-pagination-bullet {
+  width: 8px !important;
+  height: 8px !important;
+  background-color: #fff !important;
+  margin: 24px 0 !important;
+}

@@ -1,0 +1,16 @@
+@use "header";
+@use "swiper";
+@use "text";
+@use "section-0";
+@use "section-1";
+@use "section-2";
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  position: relative;
+  height: 100%;
+}
