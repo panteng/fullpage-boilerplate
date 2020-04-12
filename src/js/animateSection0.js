@@ -4,7 +4,7 @@ export default function () {
   textEl
     .velocity(
       {
-        top: "60%",
+        top: "40%",
         opacity: 0,
       },
       { duration: 0 }
