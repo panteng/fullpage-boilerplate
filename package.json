@@ -9,13 +9,13 @@
     "prod": "parcel build ./src/index.html"
   },
   "devDependencies": {
-    "eslint": "^6.8.0",
+    "eslint": "^7.3.1",
     "parcel-bundler": "^1.12.4",
-    "sass": "^1.26.3"
+    "sass": "^1.26.9"
   },
   "dependencies": {
-    "normalize.css": "^4.2.0",
-    "swiper": "^5.3.7",
+    "normalize.css": "^8.0.1",
+    "swiper": "^5.4.5",
     "velocity-animate": "^2.0.6"
   }
 }
