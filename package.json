@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "normalize.css": "^8.0.1",
-    "swiper": "^5.4.5",
+    "swiper": "^6.5.1",
     "velocity-animate": "^2.0.6"
   }
 }
